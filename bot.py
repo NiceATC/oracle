@@ -1,9 +1,9 @@
-displayName = 'xxxxxxxx'
-compartmentId = 'xxxxxxx'
-availabilityDomain = "xxxxxxxxx"
-imageId = "xxxxxxxxx"
-subnetId = 'xxxxxxxx'
-ssh_authorized_keys = "xxxxxxxx"
+displayName = 'main-server'
+compartmentId = 'ocid1.tenancy.oc1..aaaaaaaa32kykcm774eg6psd6fbdyczlpqc2gpcdlq2j64l64dkaug3m2vta'
+availabilityDomain = "msHp:SA-SAOPAULO-1-AD-1"
+imageId = "ocid1.image.oc1.sa-saopaulo-1.aaaaaaaa2ixcnymuh3czdmfuquvihuzw2pzepz5ivdsoyfphaczwky6zwsxq"
+subnetId = 'ocid1.subnet.oc1.sa-saopaulo-1.aaaaaaaal5hqtmqaimoqsz5d6mvk5nogd63sk5h2qxyznknyotwsouoocvpq'
+ssh_authorized_keys = "ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABAQCib9jK9TlJ1dc11aSUlqFMi1q0wuBIdVIkBW6n/x4ScdApKvn6m1kVA4JUMXGwX/zNXHyXuPzwPfb9u4Hp+zO5X+i8nOlaApVZbKeUc5USf4hBpmBndjzQ/dUziUrzaQRTIvjSMgAg/7lRIkriw6DfUsyXMA94nXdrSLYyPaBBnk3Tdz7swtsXdA3l0dxLSJbjAwPxUXhJN8DdFcaSwKUNdlG+1XI8sHNsR1/5GIBPwnto9dLQNA2mmHQZSeM8DNUS8Z4/9N+JslSMFEnAO92OegcIlyjvBMwAbIAHJMe2IB2857T9gJ/Jc4GjbQ1s51VUZzFPTWmYU6ks7zgix7YV ssh-key-2023-01-28"
 
 import os
 os.system("pip install oci")
